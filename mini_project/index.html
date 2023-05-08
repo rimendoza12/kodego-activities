@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous"
+  />
+
+  />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+<style>
+    .image-banner{
+        background: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-coffee-hot-drink-afternoon-tea-banner-background-image_181987.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding: 25%;
+    }
+    .tagline{
+        margin-top:-50px
+    }
+   
+    .icon-bg{
+           width: 100px;
+           height: 100px;
+           background-color: rgb(155, 245, 182);
+           border-radius: 50px;
+           margin:0px auto;
+           display: flex;
+           justify-content: center;
+           align-items: center;  
+    }
+
+    .logo-bg{
+        width:180px;
+        height:180px;
+        background-color:rgb(155, 245, 182);
+        display:flex;
+        margin:0px auto;
+        justify-content:center;
+        align-items:center;
+    }
+   
+
+
+   .image-about,.image-product{
+        background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v996-011_1-kroir1f4.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=2b6cb461f3200ae42a7a85f64bee8a91');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        
+    } 
+     
+    
+     .product-bg{ 
+        width: 250px;
+           height: 250px;
+           background-color: aquamarine;
+           border-radius: 50px;
+           margin:0px auto;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+
+     }
+
+    .image-contact{
+        background: url('https://media.istockphoto.com/id/1159612485/photo/hot-espresso-and-coffee-bean-on-white-table-with-soft-focus-and-over-light-in-the-background.jpg?b=1&s=170667a&w=0&k=20&c=xaP7MiH5buuh97Oa7M6U00q9jjHknJ0n2dIfQ3cikJw=');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+       
+    }  
+   
+
+</style>
+
+
+
+
+
+
+
+
+</head>
+<body>
+    <!-- Header-Nav -->
+    <header id="home">
+        <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="background-color:rgb(230, 200, 163)">
+            <div class="container ">
+              <a class="navbar-brand" href="#"><img src="../image_coffee/coffeelogo.jpg" alt="Logo" style="width:20%;height:20%"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto ">
+                  <a class="nav-link active text-uppercase" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link text-uppercase" href="#about">About Us</a>
+                  <a class="nav-link text-uppercase" href="#product">Products</a>
+                  <a class="nav-link text-uppercase" href="#contact">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header> 
+
+    <!--  Banner -->
+     <section>
+        <div class="container-fluid image-banner" >
+            <div class="container  tagline text-center">
+                <h4 class="display-4 text-uppercase mb-0 ">The Best Local Coffee,</h4>
+                <h4 class="display-4 text-uppercase mb-0">brought to you</h4>
+                <p class="ms-2 text-dark"><bold>We provide a variety of unique and best coffees.</bold></p>
+                <a class="btn btn-success " href="#contact" role="button">Order Now</a>
+            </div> 
+        </div>   
+    </section> 
+
+    <!-- About -->
+    <section>
+        <div class="container-fluid image-about" id="about" style="padding-top:100px;">
+                <div class="container"style="justify-content:center" >
+                <h6 class="display-6 text-center mb-2 " style="margin-top:45px;padding-top:-50px">Why Choose Us?</h6>
+                    <div class="container text-center">
+                    <div class="row pt-3" >
+                        <div class=" col-3">
+                            <span class="icon-bg">
+                                <img src="../image_coffee/coffee1.png" alt="awesome-aroma" style="height:50%;width:50%; ">
+                            </span>
+                            <h6 class="mt-3 mb-0">Awesome-aroma</h6>
+                                    <p class="text-center">Made by first roasting the green coffee beans.</p>  
+                        </div>
+                        <div class="col-3">
+                                 <span class="icon-bg">
+                                    <img src="../image_coffee/coffee2.png" alt="high-quality" style="height:50%;width:50%">
+                                </span>
+                                    
+                                    <h6 class="mt-3 mb-0">High Quality</h6>
+                                    <p class="text-center">Came from high altitude location  </p>
+                        </div>                  
+                        <div class="col-3">
+                            <span class="icon-bg">
+                                <img src="../image_coffee/coffee3.jpg" alt="pure-grades" style="height:50%;width:50%">
+                            </span>
+                                  <h6 class="mt-3 mb-0">Pure Grades</h6>
+                                  <p class="text-center">no mixing of different kinds of coffee beans</p>                                
+                        </div>
+                              
+                        <div class="col-3">
+                            <span class="icon-bg">
+                                <img src="../image_coffee/coffee4.jpg" alt="proper-roasting" style="height:50%;width:50%">
+                            </span>
+                                  <h6 class="mt-3 mb-0">Proper roasting</h6>
+                                  <p class="text-center">roasted to exact time for its best taste</p>  
+                        </div>        
+                    </div>
+                    </div>    
+                    <div class="container" >
+                            <div class="row ">
+                             <div class="col-6 ms-5" >
+                                <h2>Best Ground Coffee in Town!</h2>
+                                 <p class="text-start">We roast different variety of coffee beans to suit consumers ever-evolving tastes. Our products feature unique coffees and hold a unique position in the coffee market. Our coffee brands are available in wholesale and retail packs and include whole bean, roast and ground . So, whatever you're looking for from your coffee, our  brands have you covered.</p>
+                              </div>       
+                                 
+                            <div class="col-3 text-start" >
+                                <span class="logo-bg"><img src="../image_coffee/coffeelogo.jpg"  alt="companylogo" style="width:75%; height:75%" > </span>
+                            </div>
+                            <div class="col-3"></div>                          
+            </div>       
+        </div>
+    </section>
+    <!-- PRODUCT -->
+        <section>
+            <div class="container-fluid image-product" id="product" style="padding-top:220px; ">
+                <div class="container" >
+                    <h6 class="display-6 text-center mb-5" style="margin-top:-120px;">Our Special Coffee</h6>               
+                    <div class="container" >
+                        <div class="row">
+                            <div class="col-12 col-sm-3 ">
+                                <span class="product-bg">
+                                <img src="https://5.imimg.com/data5/YA/PD/XM/GLADMIN-58897885/selection-334-500x500.png" alt="Robusta" style="width:75%;height:75%;">
+                                </span>
+                                <h6 class="mt-1" >Price:PHP180/kilo</h6>
+                                <ul class="list-unstyled">
+                                    <li>34% of all coffee produced</li>
+                                    <li>Cheap and easy to produce</li>
+                                    <li>Bitter,rubbery,grain-like flavor</li>
+                                </ul>                              
+                            </div>                           
+                            <div class="col-12 col-sm-3 mt-4">
+                                <span class="product-bg">
+                                <img src="https://carmelbaycoffee.com/wp-content/uploads/2021/06/Excelsa-coffee-beans-768x1024.jpg" alt="Excelsa" style="width:75%;height:75%;" >
+                            </span>
+                                <h6 class="mt-1">Price:PHP200/kilo</h6>
+                                <ul class="list-unstyled">
+                                    <li>Low demand,hard to grow</li>
+                                    <li>Grow in India and SE Asia</li>
+                                    <li>Intense berry,fruity flavor</li></ul>
+                            </div>  
+                           <div class="col-12 col-sm-3 ">
+                                <span class="product-bg">
+                                <img src="https://www.tastingtable.com/img/gallery/what-makes-liberica-coffee-unique/intro-1679591419.jpg" alt="Liberica" style="width:75%;height:75%;" >                               
+                            </span>
+                                <h6 class="mt-1">Price:PHP260/kilo</h6>
+                                <ul class="list-unstyled">
+                                    <li>Only 2% of all coffee produced</li>
+                                    <li>Tastes similar to Robusta but</li>
+                                    <li class="ms-3"> distinctly smoky</li>
+                                    <li>Low in caffeine</li></ul> 
+                            </div>
+
+                            <div class="col-12 col-sm-3 mt-4">
+                                <span class="product-bg">
+                                <img src="https://5.imimg.com/data5/SELLER/Default/2022/11/KT/LK/RS/163186956/arabica-coffee-beans-125x125.png" alt="Arabica" style="width:75%;height:75%;">
+                                </span>
+                                <h6 class="mt-1">Price:PHP360/kilo</h6>
+                                <ul class="list-unstyled">
+                                    <li>Most popular coffee variety</li>
+                                    <li>64% of all coffee producion</li>
+                                    <li>Sweet with chocolate,caramel,</li>
+                                    <li class="ms-3">fruit,nut,floral notes</li>
+                                </ul>                                                                  
+                            </div>
+                         </div>                                                                                                      
+                        </div>                      
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section>
+            <div class="container-fluid image-contact" id="contact" style="padding-top:245px">
+                
+                <div class="container">
+                        <h6 class="display-6 text-start  mb-2" style="margin-top:-70px; padding-top:-110px;" >Subscribe to get News</h6>
+                </div>
+                <div class="row"> 
+                    <div class="col-5 ms-3">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInputName" placeholder="Full Name">
+                            <label for="floatingInputName">Full Name</label>
+                          </div>
+                        <div class="form-floating mb-3 ">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Message</label>
+                        </div>
+                </div>
+                    <div class="col-1"></div>
+                    <div class="col-5   text-start">
+                      <ul class="list-unstyled ">
+                        <li><ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa-solid fa-location-dot "></i> </li>
+                            <li class="list-inline-item">Address</li>
+                            <p class="ms-4">243 C.M. Recto Ave.,Lipa City,Batangas</p></ul>
+                        </li>
+                           
+                        
+                        <li><ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa-sharp fa-regular fa-phone"></i> </li>
+                            <li class="list-inline-item">Phone Number</li>
+                            <p class="ms-4">+639435612398</p></ul>
+                        </li>    
+                            
+                        
+                        <li><ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa-solid fa-square-envelope"></i></li>
+                            <li class="list-inline-item">E-mail Address</li>
+                            <p class="ms-4">tree.cafe@gmail.com</p></ul>
+                        </li>                                  
+                    </div>
+
+                    <div class="row mt-2 ms-3">
+                        <div class="col-4 text-start"> 
+                            <button type="button" class="btn btn-outline-warning">Send</button></div>
+                    </div>
+                </div>              
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"
+      ></script> 
+</body>
+</html>
